@@ -2,6 +2,8 @@
 
 Generating osm-blossom raster tiles with Mapnik and Docker! 
 
+![alt text](https://github.com/ingmapping/osm-blossom-tilemill/blob/master/demo.gif)
+
 Related project: [osm-blossom-tilemill](https://github.com/ingmapping/osm-blossom-tilemill/).
 
 ## Introduction  
