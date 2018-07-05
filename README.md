@@ -2,6 +2,8 @@
 
 A TileMill/CartoCSS project for creating custom styled raster tiles. 
 
+![alt text](https://github.com/ingmapping/osm-blossom-tilemill/blob/master/demo.gif)
+
 ## Introduction  
 
 This project is part of an internship assignment which aimed at creating tiled basemaps for the KNMI geospatial infrastructure. The data and tools used to create the osm-blossom basemap are open-source. Therefore, this project is reproducible for everyone who wants to create simple basemaps (raster tiled basemaps) from free vector data! This repository contains all the necessary instructions and files to create your own custom styled raster tiles. 
