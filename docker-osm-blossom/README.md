@@ -66,13 +66,13 @@ docker pull ingmapping/docker-osm-blossom
 To run the container, replace 'pwd' by your current working directory (the directory where you want the tiles to be exported) and use the following command:
 
 ```
-docker run -i -t --rm --name docker-osm-blossom -v 'pwd'/:/data ingmapping/docker-osm-blossom
+docker run -i -t --rm --name docker-osm-blossom --net foo -v 'pwd'/:/data ingmapping/docker-osm-blossom
 ```
 
 The above command will generate osm-blossom tiles for zoomlevel 0 to 16 (it can take a while) in a folder called 'tiles'. If you want to generate osm-blossom tiles for other zoom levels you can use the environement variables "MIN_ZOOM" and "MAX_ZOOM". For example, for zoom level 3 to 4:
 
 ```
-docker run -i -t --rm --name docker-osm-blossom -v 'pwd'/:/data -e MIN_ZOOM=3 -e MAX_ZOOM=14 ingmapping/docker-osm-blossom
+docker run -i -t --rm --name docker-osm-blossom --net foo -v 'pwd'/:/data -e MIN_ZOOM=3 -e MAX_ZOOM=14 ingmapping/docker-osm-blossom
 ```
 
 How to remove your exported tiles if permission problems: 
