@@ -12,8 +12,8 @@ This project is part of an internship assignment which aimed at creating tiled b
 The osm-blossom-tilemill project is based on the [blossom style](https://github.com/stekhn/blossom) which is a CartoCSS style based on [OSM Bright](http://github.com/mapbox/osm-bright/) and [Pandonia](https://github.com/flickr/Pandonia). The osm-blossom style differs slightly from the original [blossom style](https://github.com/stekhn/blossom) due to modifications that were made to make the style work with the latest [OSM Bright](http://github.com/mapbox/osm-bright/) style and some modifications to match the style with the Netherlands (e.g more efficient labelling of Dutch state names). The osm-blossom-tilemill project folder for use with tilemill can be downloaded [here](https://ingmapping.com/osm-blossm/osm-blossom.zip). This folder already contains the shapefiles on which the osm-blossom style depends on. Otherwise, manually download the shapefiles and unzip them from their original source:
 
 Shapefiles original data sources:
-* simplified_land_polygons.shp. This shapefile can be downloaded from [here](http://data.openstreetmapdata.com/simplified-land-polygons-complete-3857.zip).
-* land_polygons.shp. This shapefile can be downloaded from [here](http://data.openstreetmapdata.com/land-polygons-split-3857.zip).
+* simplified_land_polygons.shp. This shapefile can be downloaded from [here](https://osmdata.openstreetmap.de/download//simplified-land-polygons-complete-3857.zip).
+* land_polygons.shp. This shapefile can be downloaded from [here](https://osmdata.openstreetmap.de/download//land-polygons-split-3857.zip).
 * 10m-populated-places-simple.shp. This shapefile can be downloaded from [here](http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-populated-places-simple.zip).
 
 ```
