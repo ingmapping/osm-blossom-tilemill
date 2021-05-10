@@ -17,8 +17,8 @@ Shapefiles original data sources:
 * 10m-populated-places-simple.shp. This shapefile can be downloaded from [here](http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-populated-places-simple.zip).
 
 ```
-wget http://data.openstreetmapdata.com/simplified-land-polygons-complete-3857.zip
-wget http://data.openstreetmapdata.com/land-polygons-split-3857.zip
+wget https://osmdata.openstreetmap.de/download/simplified-land-polygons-complete-3857.zip
+wget https://osmdata.openstreetmap.de/download/land-polygons-split-3857.zip
 http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-populated-places-simple.zip
 
 ```
